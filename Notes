@@ -1,0 +1,45 @@
+User Authentication using Spring Security:
+
+Add Spring Security dependencies to your project.
+
+Create a User entity and implement a UserDetailsService to load user details from the database.
+
+Configure security settings in a SecurityConfig class, specifying endpoints that require authentication.
+
+Wishlist Management - RESTful API Endpoints:
+
+Create a WishlistItem entity representing a wishlist item.
+
+Implement a WishlistController with the following endpoints:
+
+GET /api/wishlists: Retrieve a user's wishlist.
+
+POST /api/wishlists: Create a new wishlist item.
+
+DELETE /api/wishlists/{id}: Remove a wishlist item by ID.
+
+Secure these endpoints to only allow authenticated users.
+
+Database Integration using Spring Data JPA:
+
+Design a database schema with tables for User and WishlistItem. Establish a relationship between them.
+
+Implement repository interfaces for CRUD operations on wishlist entities.
+
+Configure the application properties to connect to your chosen database.
+
+Unit Testing:
+
+Write unit tests for controllers, services, and repositories.
+
+Use tools like JUnit and Mockito for testing.
+
+Aim for adequate test coverage to ensure the reliability of the application.
+
+Documentation:
+
+Provide clear documentation on setting up and running the application locally.
+
+Include instructions for database setup and migration (if applicable).
+
+Document how to run unit tests and any additional considerations for deployment.
